@@ -1,6 +1,6 @@
 # --- Ignore Output Files ---
-outputs/*           # Ignore all files in /outputs
-!outputs/.gitkeep   # Keep the folder (create empty .gitkeep file)
+# outputs/*           # Ignore all files in /outputs
+!outputs/.gitkeep     # Keep the folder (create empty .gitkeep file)
 
 # --- System Files ---
 .DS_Store           # macOS metadata
