@@ -1,33 +1,15 @@
-Security Audit Toolkit
-A simple toolkit for port scanning on Linux and Windows systems.
+# Security Audit Toolkit
 
-Features
-Port Scanner for Linux: Uses ss or netstat to scan for open ports.
+A simple and lightweight toolkit for **port scanning** on **Linux** and **Windows** systems.
 
-Port Scanner for Windows: Uses PowerShell to scan for open ports.
+## Features
+- **Linux Port Scanner**: Uses `ss` or `netstat` to detect open ports.
+- **Windows Port Scanner**: Uses a PowerShell script to scan for open ports.
+- **Results**: Saves scan results automatically to the `outputs/` folder.
 
-Installation
+## Installation
+
 Clone the repository:
-
+```bash
 git clone https://github.com/yourusername/security-audit-toolkit.git
 cd security-audit-toolkit
-Linux:
-
-Make the script executable:
-
-chmod +x linux/port_scanner.sh
-Run the port scanner:
-
-bash:
-./linux/port_scanner.sh
-
-Windows:
-
-Open PowerShell in the windows folder.
-
-Run the port scanner:
-
-powershell
-.\port_scanner.ps1
-
-Port scan results are saved in the outputs/ folder.
