@@ -1,0 +1,26 @@
+# --- Ignore Output Files ---
+outputs/*           # Ignore all files in /outputs
+!outputs/.gitkeep   # Keep the folder (create empty .gitkeep file)
+
+# --- System Files ---
+.DS_Store           # macOS metadata
+Thumbs.db           # Windows thumbnails
+desktop.ini         # Windows folder customizations
+
+# --- IDE/Editor Files ---
+.vscode/            # VS Code settings
+.idea/              # JetBrains IDE files
+*.swp               # Vim swap files
+
+# --- Script Temp Files ---
+*.log               # Log files
+*.tmp               # Temporary files
+
+# --- Secrets ---
+.env                # Environment variables
+*.key               # Private keys
+credentials.*       # Credential files
+
+# --- OS-Specific ---
+__pycache__/        # Python cache
+node_modules/       # Node.js (if added later)
